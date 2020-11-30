@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Users\simaz\Downloads\RianWeb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1953606120.index

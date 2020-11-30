@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href=".css">
+<!-- 제이쿼리 -->
+<script src="../js/jquery-2.1.3.min.js"></script>
+<script src="../js/jquery.vide.min.js"></script>
+<script src="../js/jquery.scrollTo.min.js"></script>
+
+</head>
+
+<body>
+	<div id="container" class="page1">
+    <img src="./images/Bestmovie.jpg" style="width: 100%;">
+    </div>
+    <section id="1" data-vide-bg="stream" onclick="location.href='./movie.jsp'">
+    <h1 style="font-size: 25px; color: white; font-weight: bold;">The Best Movie</h1>
+    <h1 style="font-size: 33px; color: white; font-weight: bold;">in the world</h1>
+    </section>
+    
+    <section data-vide-bg="waterfall" id="2" class="page2" onclick="location.href='../Music/ost-search.jsp'">
+    <h1 style="font-size: 25px; color: white; font-weight: bold;">Listen to OST</h1>
+    </section>
+    <!-- <section id="3" class="page3">
+    </section> -->
+    <section id="4" class="page4">
+    <h1 style="font-size: 100px; color: white; display: inline-block;"></h1>
+    </section>
+    <section id="5" class="page5">
+    <h1 style="font-size: 100px; color: white; display: inline-block;"></h1>
+    </section>
+    <a href="#5" id="btn_gotop" class="btn_gotop">
+    <img src="../images/topbutton.png" style="width:80px; display: block; margin: 240px; "> 
+  	<span class="glyphicon glyphicon-chevron-up">
+  	</span>
+	</a>
+</body>
+</html>
