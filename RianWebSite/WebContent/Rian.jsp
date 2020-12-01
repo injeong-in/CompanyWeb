@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 
@@ -59,10 +60,10 @@
 	
 	    <nav class="clearfix">
 	        <ul class="clearfix">
-	            <li><a href="#1">Overview</a></li>
-	            <li><a href="#2">Tech</a></li>
-	            <li><a href="#3">BADARO</a></li>
-	            <li><a href="#4">Main Tech</a></li>
+	            <li><a href="#2">Overview</a></li>
+	            <li><a href="#3">Tech</a></li>
+	            <li><a href="#4">BADARO</a></li>
+	            <li><a href="#6">Main Tech</a></li>
 	            <li><a href="#11">Certification</a></li>
 	            <li><a href="#12">B & P</a></li>
 	        </ul>
