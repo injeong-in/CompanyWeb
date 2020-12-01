@@ -1,3 +1,5 @@
+/* CSS¸®¼Â */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,7 +57,7 @@ nav {
     font-size: 1em;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    position: relative;
+    position: fixed;
     border-bottom: 2px solid #34495e;
 }
 

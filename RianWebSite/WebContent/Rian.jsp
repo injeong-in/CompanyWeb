@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="./css/style.css">
     
     <!--제이쿼리 등록-->
-    <script src="../js/jquery-2.1.3.min.js">
+    <script src="./js/jquery-2.1.3.min.js">
     </script>
-    <script src="../js/jquery.vide.min.js">
+    <script src="./js/jquery.vide.min.js">
     </script>
-    <script src="../js/jquery.scrollTo.min.js">
+    <script src="./js/jquery.scrollTo.min.js">
     </script>
     
     <!--제이쿼리 작성-->
@@ -56,35 +56,30 @@
 <body>
 
 	<div id="container">
-	<!-- 
-	    네비게이션
+	
 	    <nav class="clearfix">
 	        <ul class="clearfix">
-	            <li onclick="location.href='../ViewPage/main.jsp'"><a href="">Overview</a></li>
-	            <li onclick="location.href='../Movie/login.jsp'"><a href="">Tech</a></li>
-	            <li onclick="location.href='../Movie/memberJoin.jsp'"><a href="">BADARO</a></li>
-	            <li><a href="#1">Main Tech</a></li>
-	            <li><a href="#2">Certification</a></li>
-	            <li><a href="#3">B & P</a></li>
+	            <li><a href="#1">Overview</a></li>
+	            <li><a href="#2">Tech</a></li>
+	            <li><a href="#3">BADARO</a></li>
+	            <li><a href="#4">Main Tech</a></li>
+	            <li><a href="#11">Certification</a></li>
+	            <li><a href="#12">B & P</a></li>
 	        </ul>
 	        <a href="" id="trigger"></a>
-	    네비게이션 끝    
 	    </nav>
-	
-	 -->
-	 
-	 
+
 		<!--본문-->
 	    <%for(int i=1; i<14; i++) { %>
 	    <div id="container" class="page<%=i%>">
-	    <img src="./images/<%=i%>.png" style="width: 100%;">
+	    	<section id="<%=i%>" style="width: 0.1px; height: 0.1px;"></section>
+	    		<img src="./images/<%=i%>.png" style="width: 100%;">
 	    </div>
 	    <% } %>
 	    <!--본문 끝-->
     
-    
     	<!--최상단 이동-->
-	    <a href="#5" id="btn_gotop" class="btn_gotop">
+	    <a href="#1" id="btn_gotop" class="btn_gotop">
 	    	<img src="../images/topbutton.png" style="width:80px; display: block; margin: 240px; "> 
 		  	<span class="glyphicon glyphicon-chevron-up">
 		  	</span>
