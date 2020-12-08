@@ -214,6 +214,15 @@ nav a#trigger {
 		height: 100%;
 		background-repeat: no-repeat;
 	}
+	
+	.header_menu li a{
+		list-style-type: none;
+		float: left;
+		margin-left: 30px;
+		font-weight: bold;
+		color: white;
+		text-decoration: none;
+	}
 	/* .page3 {
 		background-color: fuchsia;
 	}
