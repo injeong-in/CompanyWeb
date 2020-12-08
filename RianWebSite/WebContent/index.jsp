@@ -55,9 +55,25 @@
 
 
 <body>
-
-	<div id="container">
 	
+	<div id="container">
+		<header class="header" style="position: fixed; width: 100%; height: 80px; background-color: gray; margin: 0 auto;">
+			<div class="header_inheader" style="width: 80%; height: 80px; background-color: gray; margin:0 auto;">
+				<a href="http://rian.kr"><img src="./images/logo-1.png" style="position: relative; margin-top: 20px;"></a>
+				<div style="width:50%; position: absolute; left: 1000px; top: 30px;">
+					<ul class="header_menu" style="position: relative;">
+						<li><a href="http://rian.kr/about-us/">About us</a></li>
+						<li><a href="http://rian.kr/business/">Business</a></li>
+						<li><a href="http://rian.kr/product/">Product</a></li>
+						<li><a href="http://rian.kr/ourstory/">Our Story</a></li>
+						<li><a href="http://14.42.209.254/" style="color: #c4c4c4;">Intro in ENG</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		<br><br><br><br><br>
+	    
 	    <nav class="clearfix">
 	        <ul class="clearfix">
 	            <li><a href="#2">Overview</a></li>
@@ -69,23 +85,25 @@
 	        </ul>
 	        <a href="" id="trigger"></a>
 	    </nav>
-
+		
 		<!--본문-->
-	    <%for(int i=1; i<14; i++) { %>
-	    <div id="container" class="page<%=i%>">
-	    	<section id="<%=i%>" style="width: 0.1px; height: 0.1px;"></section>
-	    		<img src="./images/<%=i%>.png" style="width: 100%;">
-	    </div>
+		    <%for(int i=1; i<14; i++) { %>
+		    <div id="container" class="page<%=i%>">
+		    	<section id="<%=i%>" style="width: 0.1px; height: 0.1px;">
+		    	</section>
+		    	<img src="./images/<%=i%>.png" style="width: 100%;">
+		    </div>
 	    <% } %>
 	    <!--본문 끝-->
     
     	<!--최상단 이동-->
 	    <a href="#1" id="btn_gotop" class="btn_gotop">
-	    	<img src="../images/topbutton.png" style="width:80px; display: block; margin: 240px; "> 
+	    	<img src="./images/topbutton.png" style="position: fixed; right: 10px; bottom: 20px; "> 
 		  	<span class="glyphicon glyphicon-chevron-up">
 		  	</span>
 		</a>
 		<!--이동 끝-->
+		
 	</div>
 </body>
 </html>
